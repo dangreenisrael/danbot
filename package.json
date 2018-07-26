@@ -1,0 +1,29 @@
+{
+  "name": "danbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangreenisrael/danbot.git"
+  },
+  "author": "Dan Green-Leipciger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangreenisrael/danbot/issues"
+  },
+  "homepage": "https://github.com/dangreenisrael/danbot#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
