@@ -1,5 +1,6 @@
 const webhook = (req, res) => {
-  res.json(req.body);
+  console.log(JSON.stringify(req.body));
+  res.send();
 };
 
 module.exports = webhook;
