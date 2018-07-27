@@ -1,5 +1,7 @@
+const prettyjson = require('prettyjson');
+
 const webhook = (req, res) => {
-  console.log(JSON.stringify(req.body));
+  console.log(prettyjson.render(req.body));
   res.send();
 };
 
